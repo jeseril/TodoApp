@@ -1,0 +1,29 @@
+.Icon-container-check{
+    min-width: 40px;
+    margin: 0 20px 0 20px;
+    
+}
+.Icon-container-check--active{
+    color: #5afa2a;
+}
+
+.Icon-container-delete{
+    min-width: 20px;
+    margin: 0 20px 0 20px;
+}
+
+.Icon-svg{
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+
+.Icon-container-check:hover .Icon-svg{
+    fill: #3BB6FE;
+}
+
+.Icon-container-delete:hover .Icon-svg{
+    fill: red;
+}

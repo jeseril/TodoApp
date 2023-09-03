@@ -1,0 +1,44 @@
+li{
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121F4A;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+.TodoItem-p{
+    margin: 15px;
+    font-size: 1.8rem;
+    line-height: 24px;
+}
+
+.TodoItem-p--completed{
+    text-decoration: line-through;
+}
+.Icon-container-check{
+    min-width: 40px;
+    margin: 0 20px 0 20px;
+    
+}
+.Icon-container-check--active{
+    color: #5afa2a;
+}
+
+.Icon-container-delete{
+    min-width: 20px;
+    margin: 0 20px 0 20px;
+}
+
+.Icon-container-delete:hover{
+    color: red;
+}
+
+.Icon-svg{
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}

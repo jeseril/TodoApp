@@ -1,0 +1,20 @@
+.filter-container{
+    display: flex;
+}
+button{
+    margin: 0 10px 0 10px;
+    padding: 20px;
+    border: none;
+    color: #48C8F0;
+    font-weight: 800;
+    background:none;
+    font-size: 1.6rem;
+    font-family: Poppins,sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    background:#121F4A;
+    border-radius: 10px;
+    color: white;
+}

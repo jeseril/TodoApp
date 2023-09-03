@@ -1,0 +1,7 @@
+.CreateButton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #121F4A;
+    border-radius: 10px;
+}
